@@ -30,4 +30,6 @@ alias ezlcla='php $(find . -maxdepth 2 -mindepth 1 -name 'console')  ezpublish:l
 alias ezlautoloads='php $(find . -maxdepth 2 -mindepth 1 -name 'console')  ezpublish:legacy:script bin/php/ezpgenerateautoloads.php'
 alias ezlcronjobs='php $(find . -maxdepth 2 -mindepth 1 -name 'console')  ezpublish:legacy:script runcronjobs.php'
 alias ezlassets='php $(find . -maxdepth 2 -mindepth 1 -name 'console')  ezpublish:legacy:assets_install --symlink'
+alias ezlextensions='php $(find . -maxdepth 2 -mindepth 1 -name 'console')  ezpublish:legacybundles:install_extensions'
+
 
